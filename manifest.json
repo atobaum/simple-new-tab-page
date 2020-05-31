@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "Simple New Tab Page",
+	"description": "Simple new tab",
+	"version": "1.0",
+	
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"permissions": [
+		"storage"
+	],
+	"optional_permissions": ["downloads"]
+}
